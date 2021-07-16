@@ -64,7 +64,7 @@ let RichPartners = (function () {
       el.setAttribute("style", "width:0px; height:0px;");
       el.src = "https://rtb.pushdom.co/pixels/storage/custom/pixel.gif?datasource=adx_reports&publisher_id="
           + pubid + "&site_id=" + siteid
-          + "&initialized_uniques=1&ssp_id=1447&traffic_channel=XML_PUSH&custom_1="
+          + "&initialized_uniques=1&ssp_id=1447&traffic_channel=XML_PUSH&script_type=regular&custom_1="
           + protocol + "&custom_2=1&custom_3=" + url;
       document.getElementsByTagName('body')[0].appendChild(el);
     }
